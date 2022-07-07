@@ -1,5 +1,7 @@
 se7/closet/src/user/model/GetUserInfoRes.java
  se7.closet.src.user.model.GetUserInfoRes
+se7/closet/src/test/model/PostImg.java
+ se7.closet.src.test.model.PostImg
 se7/closet/src/clothes/model/PatchClthReq.java
  se7.closet.src.clothes.model.PatchClthReq
 se7/closet/src/clothes/ClthRepository.java
