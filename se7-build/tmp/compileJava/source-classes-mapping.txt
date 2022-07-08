@@ -10,6 +10,8 @@ se7/closet/utils/ValidationRegex.java
  se7.closet.utils.ValidationRegex
 se7/closet/src/clothes/ClthController.java
  se7.closet.src.clothes.ClthController
+se7/closet/src/test/model/PostImgRes.java
+ se7.closet.src.test.model.PostImgRes
 se7/closet/src/user/model/PostLoginRes.java
  se7.closet.src.user.model.PostLoginRes
 se7/closet/src/WebSecurityConfig.java
