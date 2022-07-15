@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url:  jdbc:mysql://localhost:3306/testDB # ??????
+    username: root
+    password: nabigasalrang33
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8??
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
