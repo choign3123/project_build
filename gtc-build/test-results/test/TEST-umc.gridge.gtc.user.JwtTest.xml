@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="umc.gridge.gtc.user.JwtTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-07T14:29:08" hostname="GANA-LAPTOP" time="0.106">
+  <properties/>
+  <testcase name="jwt 생성 테스트" classname="umc.gridge.gtc.user.JwtTest" time="0.102"/>
+  <testcase name="jwt 문자열 길이 확인" classname="umc.gridge.gtc.user.JwtTest" time="0.003"/>
+  <system-out><![CDATA[tempJwt = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmcmVzaCIsImlhdCI6MTY1OTg4MjU0OCwiZXhwIjoxNjU5ODg0MzQ4LCJ1c2VySWR4IjoxfQ.yIi41Gi42qOP9XZq2gOCpsiiusXqaDiMEu6QVMtwn9U
+str.length() = 163
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="umc.gridge.gtc.JavaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-07T14:29:08" hostname="GANA-LAPTOP" time="0.021">
+  <properties/>
+  <testcase name="날짜타입변환()" classname="umc.gridge.gtc.JavaTest" time="0.004"/>
+  <testcase name="Date 클래스 테스트" classname="umc.gridge.gtc.JavaTest" time="0.016"/>
+  <system-out><![CDATA[date = 2001-03-03
+now = Sun Aug 07 23:29:08 KST 2022
+now.getTime() = 1659882548096
+Duration.ofMinutes(30) = PT30M
+Duration.ofMinutes(30).toMillis() = 1800000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

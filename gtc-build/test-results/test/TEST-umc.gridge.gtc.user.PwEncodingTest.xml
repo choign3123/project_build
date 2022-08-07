@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="umc.gridge.gtc.user.PwEncodingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-07T14:29:08" hostname="GANA-LAPTOP" time="0.005">
+  <properties/>
+  <testcase name="비번 암호화 테스트" classname="umc.gridge.gtc.user.PwEncodingTest" time="0.005"/>
+  <system-out><![CDATA[encodedPw = 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
+encodedPw.length() = 64
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

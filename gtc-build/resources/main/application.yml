@@ -1,0 +1,30 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: gtc
+
+  datasource:
+    platform: mysql
+    url:  jdbc:mysql://umcdb.c8xezlmvz99n.ap-northeast-2.rds.amazonaws.com:3306/umcGTC
+    username: umc
+    password: chamsaenunjack55
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      # create: 기존 테이블을 삭제하고 새로 생성 (drop + create)
+      # create-drop: create + 앱 종료할 때 생성한 ddl 제거 (drop + create + drop)
+      # update: db 테이블과 매핑 정보를 비교해서 변경 사항만 수정
+      # 개발 초기단계에는 create 또는 update / 테스트서버는 update 또는 validate / 스테이징 운영서버는 validate 또는 none
+    properties:
+      hibernate:
+#        show_sql: true # sout
+        format_sql: true
+
+logging:
+  level:
+    org.hibernate.type: trace # sout에 (?)에 들어가는 값 출력해줌
+    org.hibernate.SQL: debug #??? ??
