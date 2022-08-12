@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="umc_sjs.smallestShelter.controller.PostControllerTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-08-12T03:40:28" hostname="GANA-LAPTOP" time="1.979">
+<testsuite name="umc_sjs.smallestShelter.controller.PostControllerTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-08-12T04:12:35" hostname="GANA-LAPTOP" time="2.139">
   <properties/>
-  <testcase name="게시글조회_X_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.635"/>
-  <testcase name="게시글생성X 이미지 없음" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.056"/>
-  <testcase name="게시글생성()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.213"/>
-  <testcase name="게시글조회()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.097"/>
-  <testcase name="게시물삭제()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.221"/>
-  <testcase name="게시물수정()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.127"/>
-  <testcase name="게시글조회_x_없는게시물조회()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.101"/>
-  <testcase name="게시물삭제_x_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.066"/>
-  <testcase name="게시글생성_X_이미지없음_null()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.036"/>
-  <testcase name="게시물수정_x_없는게시물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.056"/>
-  <testcase name="게시물수정_x_이미지없음()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.052"/>
-  <testcase name="게시물수정_x_이미지없음_null()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.048"/>
-  <testcase name="게시글삭제_x_없는게시물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.085"/>
-  <testcase name="게시글생성_X_없는동물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.088"/>
-  <testcase name="게시물수정_x_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.076"/>
-  <system-out><![CDATA[2022-08-12 12:40:28.896  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [umc_sjs.smallestShelter.controller.PostControllerTest], using SpringBootContextLoader
-2022-08-12 12:40:28.897  INFO 14216 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [umc_sjs.smallestShelter.controller.PostControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-08-12 12:40:28.898  INFO 14216 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [umc_sjs.smallestShelter.controller.PostControllerTest]: PostControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-08-12 12:40:28.922  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration umc_sjs.smallestShelter.SmallestShelterApplication for test class umc_sjs.smallestShelter.controller.PostControllerTest
-2022-08-12 12:40:28.925  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2022-08-12 12:40:28.927  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@62672ad5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f5b81f4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4c020e58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67887bf2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ce2c454, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f65b61d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33c91567, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@17baaf07, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3d5009c0, org.springframework.test.context.event.EventPublishingTestExecutionListener@7f478529, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@45ed58b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@465e9090, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7bfd8f92, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@38503309, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4ad04b05, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@78b888df, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6f2e0945]
-2022-08-12 12:40:29.162 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+  <testcase name="게시글조회_X_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.482"/>
+  <testcase name="게시글생성X 이미지 없음" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.053"/>
+  <testcase name="게시글생성()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.171"/>
+  <testcase name="게시글조회()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.201"/>
+  <testcase name="게시물삭제()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.141"/>
+  <testcase name="게시물수정()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.173"/>
+  <testcase name="게시글조회_x_없는게시물조회()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.143"/>
+  <testcase name="게시물삭제_x_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.159"/>
+  <testcase name="게시글생성_X_이미지없음_null()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.057"/>
+  <testcase name="게시물수정_x_없는게시물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.137"/>
+  <testcase name="게시물수정_x_이미지없음()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.063"/>
+  <testcase name="게시물수정_x_이미지없음_null()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.043"/>
+  <testcase name="게시글삭제_x_없는게시물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.126"/>
+  <testcase name="게시글생성_X_없는동물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.08"/>
+  <testcase name="게시물수정_x_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.09"/>
+  <system-out><![CDATA[2022-08-12 13:12:35.438  INFO 22440 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [umc_sjs.smallestShelter.controller.PostControllerTest], using SpringBootContextLoader
+2022-08-12 13:12:35.438  INFO 22440 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [umc_sjs.smallestShelter.controller.PostControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-12 13:12:35.439  INFO 22440 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [umc_sjs.smallestShelter.controller.PostControllerTest]: PostControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-12 13:12:35.465  INFO 22440 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration umc_sjs.smallestShelter.SmallestShelterApplication for test class umc_sjs.smallestShelter.controller.PostControllerTest
+2022-08-12 13:12:35.467  INFO 22440 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-12 13:12:35.469  INFO 22440 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5be783a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1c65740a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6cb59aa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@224f90eb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@54464330, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63b4a896, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3feeab43, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6178ac9d, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7413c41, org.springframework.test.context.event.EventPublishingTestExecutionListener@4177d427, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@b89cbf9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2f318251, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@219c10c2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5e352e3a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1b26f006, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@38a6ca39, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@797dd7ef]
+2022-08-12 13:12:35.655 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -42,7 +42,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:29.335 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:35.760 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -51,7 +51,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:29.435 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:35.857 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -82,7 +82,7 @@
     where
         post0_.post_idx=?
 해당 동물의 게시물의 아닙니다: idx 불일치
-2022-08-12 12:40:29.575 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:35.964 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -102,7 +102,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:29.613 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:35.999 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -112,7 +112,7 @@
     from
         post post0_
 게시물에 이미지가 없습니다
-2022-08-12 12:40:29.630 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.018 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -132,7 +132,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:29.698 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.056 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -141,7 +141,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:29.731 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.083 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_0_,
         illnesslis1_.illness_idx as illness_1_2_1_,
@@ -171,14 +171,14 @@
             on animal0_.animal_idx=illnesslis1_.animal_idx 
     where
         animal0_.animal_idx=?
-2022-08-12 12:40:29.778 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.117 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         post
         (animal_idx, content, create_date, img_url) 
     values
         (?, ?, ?, ?)
-2022-08-12 12:40:29.847 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.199 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -198,7 +198,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:29.879 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.267 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -207,7 +207,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:29.905 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.344 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -237,7 +237,7 @@
             on post0_.animal_idx=animal1_.animal_idx 
     where
         post0_.post_idx=?
-2022-08-12 12:40:29.946 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.395 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -257,7 +257,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.001 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.416 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -266,7 +266,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.025 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.446 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_0_,
         illnesslis1_.illness_idx as illness_1_2_1_,
@@ -296,14 +296,14 @@
             on animal0_.animal_idx=illnesslis1_.animal_idx 
     where
         animal0_.animal_idx=?
-2022-08-12 12:40:30.045 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.454 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         post
         (animal_idx, content, create_date, img_url) 
     values
         (?, ?, ?, ?)
-2022-08-12 12:40:30.102 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.484 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -333,14 +333,14 @@
             on post0_.animal_idx=animal1_.animal_idx 
     where
         post0_.post_idx=?
-2022-08-12 12:40:30.129 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.501 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     delete 
     from
         post 
     where
         post_idx=?
 요청에 성공하였습니다.
-2022-08-12 12:40:30.167 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.544 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -360,7 +360,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.198 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.591 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -369,7 +369,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.230 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.635 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -399,7 +399,7 @@
             on post0_.animal_idx=animal1_.animal_idx 
     where
         post0_.post_idx=?
-2022-08-12 12:40:30.246 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.670 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     update
         post 
     set
@@ -409,7 +409,7 @@
         img_url=? 
     where
         post_idx=?
-2022-08-12 12:40:30.297 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.716 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -429,7 +429,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.320 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.756 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -438,7 +438,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.346 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.787 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -469,7 +469,7 @@
     where
         post0_.post_idx=?
 해당하는 게시물이 존재하지 않습니다
-2022-08-12 12:40:30.397 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.858 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -489,7 +489,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.420 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.906 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -498,7 +498,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.439 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:36.985 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -529,7 +529,7 @@
     where
         post0_.post_idx=?
 해당 동물의 게시물의 아닙니다: idx 불일치
-2022-08-12 12:40:30.464 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.018 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -549,7 +549,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.484 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.055 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -559,7 +559,7 @@
     from
         post post0_
 게시물에 이미지가 없습니다
-2022-08-12 12:40:30.502 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.076 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -579,7 +579,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.517 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.102 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -588,7 +588,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.532 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.121 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -619,7 +619,7 @@
     where
         post0_.post_idx=?
 해당하는 게시물이 존재하지 않습니다
-2022-08-12 12:40:30.560 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.214 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -639,7 +639,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.589 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.262 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -649,7 +649,7 @@
     from
         post post0_
 게시물에 이미지가 없습니다
-2022-08-12 12:40:30.613 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.279 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -669,7 +669,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.647 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.307 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -679,7 +679,7 @@
     from
         post post0_
 게시물에 이미지가 없습니다
-2022-08-12 12:40:30.664 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.322 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -699,7 +699,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.683 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.399 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -708,7 +708,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.711 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.414 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -739,7 +739,7 @@
     where
         post0_.post_idx=?
 해당하는 게시물이 존재하지 않습니다
-2022-08-12 12:40:30.756 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.448 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -759,7 +759,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.786 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.476 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -768,7 +768,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.810 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.497 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_0_,
         illnesslis1_.illness_idx as illness_1_2_1_,
@@ -799,7 +799,7 @@
     where
         animal0_.animal_idx=?
 데이터베이스 연결에 실패하였습니다.
-2022-08-12 12:40:30.840 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.529 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as animal_i1_0_,
         animal0_.is_guessed as is_guess2_0_,
@@ -819,7 +819,7 @@
         animal0_.upload_user_idx as upload_16_0_ 
     from
         animal animal0_
-2022-08-12 12:40:30.855 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.551 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_,
         post0_.animal_idx as animal_i5_3_,
@@ -828,7 +828,7 @@
         post0_.img_url as img_url4_3_ 
     from
         post post0_
-2022-08-12 12:40:30.863 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+2022-08-12 13:12:37.585 DEBUG 22440 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
