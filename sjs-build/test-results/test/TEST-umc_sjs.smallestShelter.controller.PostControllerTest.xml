@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="umc_sjs.smallestShelter.controller.PostControllerTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-08-12T03:40:28" hostname="GANA-LAPTOP" time="1.979">
+  <properties/>
+  <testcase name="게시글조회_X_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.635"/>
+  <testcase name="게시글생성X 이미지 없음" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.056"/>
+  <testcase name="게시글생성()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.213"/>
+  <testcase name="게시글조회()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.097"/>
+  <testcase name="게시물삭제()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.221"/>
+  <testcase name="게시물수정()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.127"/>
+  <testcase name="게시글조회_x_없는게시물조회()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.101"/>
+  <testcase name="게시물삭제_x_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.066"/>
+  <testcase name="게시글생성_X_이미지없음_null()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.036"/>
+  <testcase name="게시물수정_x_없는게시물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.056"/>
+  <testcase name="게시물수정_x_이미지없음()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.052"/>
+  <testcase name="게시물수정_x_이미지없음_null()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.048"/>
+  <testcase name="게시글삭제_x_없는게시물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.085"/>
+  <testcase name="게시글생성_X_없는동물()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.088"/>
+  <testcase name="게시물수정_x_일치하지않는동물idx()" classname="umc_sjs.smallestShelter.controller.PostControllerTest" time="0.076"/>
+  <system-out><![CDATA[2022-08-12 12:40:28.896  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [umc_sjs.smallestShelter.controller.PostControllerTest], using SpringBootContextLoader
+2022-08-12 12:40:28.897  INFO 14216 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [umc_sjs.smallestShelter.controller.PostControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-12 12:40:28.898  INFO 14216 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [umc_sjs.smallestShelter.controller.PostControllerTest]: PostControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-12 12:40:28.922  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration umc_sjs.smallestShelter.SmallestShelterApplication for test class umc_sjs.smallestShelter.controller.PostControllerTest
+2022-08-12 12:40:28.925  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-12 12:40:28.927  INFO 14216 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@62672ad5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f5b81f4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4c020e58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67887bf2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ce2c454, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f65b61d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33c91567, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@17baaf07, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3d5009c0, org.springframework.test.context.event.EventPublishingTestExecutionListener@7f478529, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@45ed58b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@465e9090, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7bfd8f92, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@38503309, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4ad04b05, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@78b888df, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6f2e0945]
+2022-08-12 12:40:29.162 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:29.335 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:29.435 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+해당 동물의 게시물의 아닙니다: idx 불일치
+2022-08-12 12:40:29.575 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:29.613 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+게시물에 이미지가 없습니다
+2022-08-12 12:40:29.630 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:29.698 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:29.731 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_0_,
+        illnesslis1_.illness_idx as illness_1_2_1_,
+        animal0_.is_guessed as is_guess2_0_0_,
+        animal0_.month as month3_0_0_,
+        animal0_.year as year4_0_0_,
+        animal0_.bark as bark5_0_0_,
+        animal0_.bite as bite6_0_0_,
+        animal0_.create_date as create_d7_0_0_,
+        animal0_.gender as gender8_0_0_,
+        animal0_.is_adopted as is_adopt9_0_0_,
+        animal0_.main_img_url as main_im10_0_0_,
+        animal0_.name as name11_0_0_,
+        animal0_.separation as separat12_0_0_,
+        animal0_.socialization as sociali13_0_0_,
+        animal0_.species as species14_0_0_,
+        animal0_.toilet as toilet15_0_0_,
+        animal0_.upload_user_idx as upload_16_0_0_,
+        illnesslis1_.animal_idx as animal_i3_2_1_,
+        illnesslis1_.name as name2_2_1_,
+        illnesslis1_.animal_idx as animal_i3_2_0__,
+        illnesslis1_.illness_idx as illness_1_2_0__ 
+    from
+        animal animal0_ 
+    left outer join
+        illness illnesslis1_ 
+            on animal0_.animal_idx=illnesslis1_.animal_idx 
+    where
+        animal0_.animal_idx=?
+2022-08-12 12:40:29.778 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        post
+        (animal_idx, content, create_date, img_url) 
+    values
+        (?, ?, ?, ?)
+2022-08-12 12:40:29.847 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:29.879 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:29.905 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+2022-08-12 12:40:29.946 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.001 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.025 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_0_,
+        illnesslis1_.illness_idx as illness_1_2_1_,
+        animal0_.is_guessed as is_guess2_0_0_,
+        animal0_.month as month3_0_0_,
+        animal0_.year as year4_0_0_,
+        animal0_.bark as bark5_0_0_,
+        animal0_.bite as bite6_0_0_,
+        animal0_.create_date as create_d7_0_0_,
+        animal0_.gender as gender8_0_0_,
+        animal0_.is_adopted as is_adopt9_0_0_,
+        animal0_.main_img_url as main_im10_0_0_,
+        animal0_.name as name11_0_0_,
+        animal0_.separation as separat12_0_0_,
+        animal0_.socialization as sociali13_0_0_,
+        animal0_.species as species14_0_0_,
+        animal0_.toilet as toilet15_0_0_,
+        animal0_.upload_user_idx as upload_16_0_0_,
+        illnesslis1_.animal_idx as animal_i3_2_1_,
+        illnesslis1_.name as name2_2_1_,
+        illnesslis1_.animal_idx as animal_i3_2_0__,
+        illnesslis1_.illness_idx as illness_1_2_0__ 
+    from
+        animal animal0_ 
+    left outer join
+        illness illnesslis1_ 
+            on animal0_.animal_idx=illnesslis1_.animal_idx 
+    where
+        animal0_.animal_idx=?
+2022-08-12 12:40:30.045 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        post
+        (animal_idx, content, create_date, img_url) 
+    values
+        (?, ?, ?, ?)
+2022-08-12 12:40:30.102 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+2022-08-12 12:40:30.129 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    delete 
+    from
+        post 
+    where
+        post_idx=?
+요청에 성공하였습니다.
+2022-08-12 12:40:30.167 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.198 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.230 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+2022-08-12 12:40:30.246 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    update
+        post 
+    set
+        animal_idx=?,
+        content=?,
+        create_date=?,
+        img_url=? 
+    where
+        post_idx=?
+2022-08-12 12:40:30.297 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.320 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.346 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+해당하는 게시물이 존재하지 않습니다
+2022-08-12 12:40:30.397 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.420 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.439 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+해당 동물의 게시물의 아닙니다: idx 불일치
+2022-08-12 12:40:30.464 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.484 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+게시물에 이미지가 없습니다
+2022-08-12 12:40:30.502 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.517 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.532 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+해당하는 게시물이 존재하지 않습니다
+2022-08-12 12:40:30.560 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.589 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+게시물에 이미지가 없습니다
+2022-08-12 12:40:30.613 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.647 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+게시물에 이미지가 없습니다
+2022-08-12 12:40:30.664 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.683 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.711 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+해당하는 게시물이 존재하지 않습니다
+2022-08-12 12:40:30.756 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.786 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.810 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_0_,
+        illnesslis1_.illness_idx as illness_1_2_1_,
+        animal0_.is_guessed as is_guess2_0_0_,
+        animal0_.month as month3_0_0_,
+        animal0_.year as year4_0_0_,
+        animal0_.bark as bark5_0_0_,
+        animal0_.bite as bite6_0_0_,
+        animal0_.create_date as create_d7_0_0_,
+        animal0_.gender as gender8_0_0_,
+        animal0_.is_adopted as is_adopt9_0_0_,
+        animal0_.main_img_url as main_im10_0_0_,
+        animal0_.name as name11_0_0_,
+        animal0_.separation as separat12_0_0_,
+        animal0_.socialization as sociali13_0_0_,
+        animal0_.species as species14_0_0_,
+        animal0_.toilet as toilet15_0_0_,
+        animal0_.upload_user_idx as upload_16_0_0_,
+        illnesslis1_.animal_idx as animal_i3_2_1_,
+        illnesslis1_.name as name2_2_1_,
+        illnesslis1_.animal_idx as animal_i3_2_0__,
+        illnesslis1_.illness_idx as illness_1_2_0__ 
+    from
+        animal animal0_ 
+    left outer join
+        illness illnesslis1_ 
+            on animal0_.animal_idx=illnesslis1_.animal_idx 
+    where
+        animal0_.animal_idx=?
+데이터베이스 연결에 실패하였습니다.
+2022-08-12 12:40:30.840 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        animal0_.animal_idx as animal_i1_0_,
+        animal0_.is_guessed as is_guess2_0_,
+        animal0_.month as month3_0_,
+        animal0_.year as year4_0_,
+        animal0_.bark as bark5_0_,
+        animal0_.bite as bite6_0_,
+        animal0_.create_date as create_d7_0_,
+        animal0_.gender as gender8_0_,
+        animal0_.is_adopted as is_adopt9_0_,
+        animal0_.main_img_url as main_im10_0_,
+        animal0_.name as name11_0_,
+        animal0_.separation as separat12_0_,
+        animal0_.socialization as sociali13_0_,
+        animal0_.species as species14_0_,
+        animal0_.toilet as toilet15_0_,
+        animal0_.upload_user_idx as upload_16_0_ 
+    from
+        animal animal0_
+2022-08-12 12:40:30.855 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_,
+        post0_.animal_idx as animal_i5_3_,
+        post0_.content as content2_3_,
+        post0_.create_date as create_d3_3_,
+        post0_.img_url as img_url4_3_ 
+    from
+        post post0_
+2022-08-12 12:40:30.863 DEBUG 14216 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        post0_.post_idx as post_idx1_3_0_,
+        animal1_.animal_idx as animal_i1_0_1_,
+        post0_.animal_idx as animal_i5_3_0_,
+        post0_.content as content2_3_0_,
+        post0_.create_date as create_d3_3_0_,
+        post0_.img_url as img_url4_3_0_,
+        animal1_.is_guessed as is_guess2_0_1_,
+        animal1_.month as month3_0_1_,
+        animal1_.year as year4_0_1_,
+        animal1_.bark as bark5_0_1_,
+        animal1_.bite as bite6_0_1_,
+        animal1_.create_date as create_d7_0_1_,
+        animal1_.gender as gender8_0_1_,
+        animal1_.is_adopted as is_adopt9_0_1_,
+        animal1_.main_img_url as main_im10_0_1_,
+        animal1_.name as name11_0_1_,
+        animal1_.separation as separat12_0_1_,
+        animal1_.socialization as sociali13_0_1_,
+        animal1_.species as species14_0_1_,
+        animal1_.toilet as toilet15_0_1_,
+        animal1_.upload_user_idx as upload_16_0_1_ 
+    from
+        post post0_ 
+    left outer join
+        animal animal1_ 
+            on post0_.animal_idx=animal1_.animal_idx 
+    where
+        post0_.post_idx=?
+해당 동물의 게시물의 아닙니다: idx 불일치
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
