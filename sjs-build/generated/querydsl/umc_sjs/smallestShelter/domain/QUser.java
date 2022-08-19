@@ -38,7 +38,7 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath phoneNumber = createString("phoneNumber");
 
-    public final StringPath profileImgUrl = createString("profileImgUrl");
+    public final NumberPath<Integer> profileImgUrl = createNumber("profileImgUrl", Integer.class);
 
     public final EnumPath<Role> role = createEnum("role", Role.class);
 
