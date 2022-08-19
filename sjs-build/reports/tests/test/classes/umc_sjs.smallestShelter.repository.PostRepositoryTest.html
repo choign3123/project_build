@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.071s</div>
+<div class="counter">0.144s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">게시물전체조회_fetch()</td>
-<td class="success">0.063s</td>
+<td class="success">0.131s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">게시물조회_fetch()</td>
-<td class="success">0.008s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,13 +92,13 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2022-08-19 19:39:07.743  INFO 21108 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [umc_sjs.smallestShelter.repository.PostRepositoryTest], using SpringBootContextLoader
-2022-08-19 19:39:07.746  INFO 21108 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [umc_sjs.smallestShelter.repository.PostRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-08-19 19:39:07.746  INFO 21108 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [umc_sjs.smallestShelter.repository.PostRepositoryTest]: PostRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-08-19 19:39:07.771  INFO 21108 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration umc_sjs.smallestShelter.SmallestShelterApplication for test class umc_sjs.smallestShelter.repository.PostRepositoryTest
-2022-08-19 19:39:07.775  INFO 21108 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2022-08-19 19:39:07.777  INFO 21108 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2c4da654, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@664e8bb7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@73859ca8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1a2d02d8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5b1378cf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49925329, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16adf66f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@64e41da0, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@24f1d4f3, org.springframework.test.context.event.EventPublishingTestExecutionListener@7fa1c05f, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6465f4a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@428b5b3f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@687749d1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@19a5cfb8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2dad6fc9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@35e79be0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@678c654c]
-2022-08-19 19:39:07.838 DEBUG 21108 --- [    Test worker] org.hibernate.SQL                        : 
+<pre>2022-08-19 19:53:00.601  INFO 4904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [umc_sjs.smallestShelter.repository.PostRepositoryTest], using SpringBootContextLoader
+2022-08-19 19:53:00.605  INFO 4904 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [umc_sjs.smallestShelter.repository.PostRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-19 19:53:00.606  INFO 4904 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [umc_sjs.smallestShelter.repository.PostRepositoryTest]: PostRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-19 19:53:00.770  INFO 4904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration umc_sjs.smallestShelter.SmallestShelterApplication for test class umc_sjs.smallestShelter.repository.PostRepositoryTest
+2022-08-19 19:53:00.778  INFO 4904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-19 19:53:00.783  INFO 4904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f2c0470, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@992f314, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5bf963a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a38b5c7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35283b74, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2bbc6496, org.springframework.test.context.transaction.TransactionalTestExecutionListener@52cb399d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3db2388e, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@493557d7, org.springframework.test.context.event.EventPublishingTestExecutionListener@1e512b3, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@a69c4c3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@26b3eb48, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45db8ba6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c826924, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2809e7ab, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1159a049, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8c68f7f]
+2022-08-19 19:53:00.927 DEBUG 4904 --- [    Test worker] org.hibernate.SQL                        : 
     select
         post0_.post_idx as post_idx1_3_0_,
         animal1_.animal_idx as animal_i1_0_1_,
@@ -137,7 +137,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4.1</a> at 2022. 8. 19. 오후 7:39:09</p>
+<a href="http://www.gradle.org">Gradle 7.4.1</a> at 2022. 8. 19. 오후 7:53:02</p>
 </div>
 </div>
 </body>
