@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.095s</div>
+<div class="counter">0.106s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">getRecommandAnimals</td>
-<td class="success">0.095s</td>
+<td class="success">0.106s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,13 +87,13 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2022-09-01 19:14:22.211  INFO 8084 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@555b43ba testClass = AnimalRepositoryTest, testInstance = umc_sjs.smallestShelter.AnimalRepositoryTest@3ce3b176, testMethod = getRecommandAnimals@AnimalRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@59e83ff0 testClass = AnimalRepositoryTest, locations = '{}', classes = '{class umc_sjs.smallestShelter.SmallestShelterApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@183e8023, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56bca85b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@22b53226, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@ea9b7c6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@41813449, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1890516e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@c725dfa]; rollback [true]
-2022-09-01 19:14:22.221 DEBUG 8084 --- [    Test worker] org.hibernate.SQL                        : 
+<pre>2022-09-02 19:18:55.931  INFO 14204 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@56101f06 testClass = AnimalRepositoryTest, testInstance = umc_sjs.smallestShelter.AnimalRepositoryTest@368a26dd, testMethod = getRecommandAnimals@AnimalRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4245e409 testClass = AnimalRepositoryTest, locations = '{}', classes = '{class umc_sjs.smallestShelter.SmallestShelterApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@183e8023, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56bca85b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@22b53226, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@ea9b7c6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@41813449, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1890516e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@440e2406]; rollback [true]
+2022-09-02 19:18:55.941 DEBUG 14204 --- [    Test worker] org.hibernate.SQL                        : 
     select
         count(animal0_.animal_idx) as col_0_0_ 
     from
         animal animal0_
-2022-09-01 19:14:22.241 DEBUG 8084 --- [    Test worker] org.hibernate.SQL                        : 
+2022-09-02 19:18:55.968 DEBUG 14204 --- [    Test worker] org.hibernate.SQL                        : 
     select
         animal0_.animal_idx as col_0_0_,
         animal0_.main_img_url as col_1_0_ 
@@ -101,8 +101,12 @@
         animal animal0_ 
     where
         animal0_.is_adopted=0 limit ?, ?
-randomNumber = 78
+randomNumber = 74
 resultList.size() = 12
+recommandAnimalDto = 108
+recommandAnimalDto = 109
+recommandAnimalDto = 110
+recommandAnimalDto = 111
 recommandAnimalDto = 112
 recommandAnimalDto = 113
 recommandAnimalDto = 114
@@ -111,11 +115,7 @@ recommandAnimalDto = 116
 recommandAnimalDto = 117
 recommandAnimalDto = 118
 recommandAnimalDto = 119
-recommandAnimalDto = 120
-recommandAnimalDto = 121
-recommandAnimalDto = 122
-recommandAnimalDto = 123
-2022-09-01 19:14:22.284  INFO 8084 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@555b43ba testClass = AnimalRepositoryTest, testInstance = umc_sjs.smallestShelter.AnimalRepositoryTest@3ce3b176, testMethod = getRecommandAnimals@AnimalRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@59e83ff0 testClass = AnimalRepositoryTest, locations = '{}', classes = '{class umc_sjs.smallestShelter.SmallestShelterApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@183e8023, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56bca85b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@22b53226, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@ea9b7c6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@41813449, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1890516e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+2022-09-02 19:18:56.018  INFO 14204 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@56101f06 testClass = AnimalRepositoryTest, testInstance = umc_sjs.smallestShelter.AnimalRepositoryTest@368a26dd, testMethod = getRecommandAnimals@AnimalRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4245e409 testClass = AnimalRepositoryTest, locations = '{}', classes = '{class umc_sjs.smallestShelter.SmallestShelterApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@183e8023, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56bca85b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@22b53226, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@ea9b7c6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@41813449, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1890516e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
 </pre>
 </span>
 </div>
@@ -127,7 +127,7 @@ recommandAnimalDto = 123
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4.1</a> at 2022. 9. 1. 오후 7:14:22</p>
+<a href="http://www.gradle.org">Gradle 7.4.1</a> at 2022. 9. 2. 오후 7:18:56</p>
 </div>
 </div>
 </body>
