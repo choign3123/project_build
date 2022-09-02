@@ -30,6 +30,8 @@ public class QAnimal extends EntityPathBase<Animal> {
 
     public final DateTimePath<java.sql.Timestamp> createDate = createDateTime("createDate", java.sql.Timestamp.class);
 
+    public final ListPath<FavoriteAnimal, QFavoriteAnimal> favoriteAnimalList = this.<FavoriteAnimal, QFavoriteAnimal>createList("favoriteAnimalList", FavoriteAnimal.class, QFavoriteAnimal.class, PathInits.DIRECT2);
+
     public final EnumPath<Gender> gender = createEnum("gender", Gender.class);
 
     public final NumberPath<Long> idx = createNumber("idx", Long.class);
