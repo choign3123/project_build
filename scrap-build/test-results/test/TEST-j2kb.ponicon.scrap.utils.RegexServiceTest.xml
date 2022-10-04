@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.utils.RegexServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-04T20:55:37" hostname="GANA-LAPTOP" time="0.011">
+<testsuite name="j2kb.ponicon.scrap.utils.RegexServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-04T21:10:44" hostname="GANA-LAPTOP" time="0.006">
   <properties/>
-  <testcase name="정규표현식 이름" classname="j2kb.ponicon.scrap.utils.RegexServiceTest" time="0.006"/>
-  <testcase name="정규표현식 아이디" classname="j2kb.ponicon.scrap.utils.RegexServiceTest" time="0.002"/>
-  <testcase name="정규표현식 비번" classname="j2kb.ponicon.scrap.utils.RegexServiceTest" time="0.002"/>
+  <testcase name="정규표현식 이름" classname="j2kb.ponicon.scrap.utils.RegexServiceTest" time="0.003"/>
+  <testcase name="정규표현식 아이디" classname="j2kb.ponicon.scrap.utils.RegexServiceTest" time="0.001"/>
+  <testcase name="정규표현식 비번" classname="j2kb.ponicon.scrap.utils.RegexServiceTest" time="0.001"/>
   <system-out><![CDATA[result = true
 result = true
 result = true

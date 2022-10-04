@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.mypage.MyPageServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-04T20:55:37" hostname="GANA-LAPTOP" time="0.037">
+<testsuite name="j2kb.ponicon.scrap.mypage.MyPageServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-04T21:10:44" hostname="GANA-LAPTOP" time="0.028">
   <properties/>
-  <testcase name="userInfo기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.mypage.MyPageServiceTest" time="0.037"/>
-  <system-out><![CDATA[05:55:37.872 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@101a461c] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-]]></system-out>
+  <testcase name="userInfo기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.mypage.MyPageServiceTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

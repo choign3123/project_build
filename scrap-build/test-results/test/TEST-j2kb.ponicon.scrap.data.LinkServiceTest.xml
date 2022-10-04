@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-04T20:55:36" hostname="GANA-LAPTOP" time="0.871">
+<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-04T21:10:43" hostname="GANA-LAPTOP" time="0.717">
   <properties/>
-  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.009"/>
-  <testcase name="linkSave기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.86"/>
-  <system-out><![CDATA[05:55:36.962 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@5853495b] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-05:55:36.962 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@524a2ffb] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-05:55:36.974 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@fb6097b] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-05:55:36.975 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@2dfe5525] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-05:55:36.975 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Link@1290c49] or target class [class j2kb.ponicon.scrap.domain.Link] to value [1]
-05:55:37.818 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@44fff386
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=title
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@44fff386
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=image
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@44fff386
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=url
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@44fff386
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=url
-05:55:37.827 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - j2kb.ponicon.scrap.data.dto.PostDataSaveReq@436bd4df
+  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.005"/>
+  <testcase name="linkSave기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.712"/>
+  <system-out><![CDATA[2022-10-05 06:10:44.541  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@8551ee6
+2022-10-05 06:10:44.541  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=title
+2022-10-05 06:10:44.541  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@8551ee6
+2022-10-05 06:10:44.541  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=image
+2022-10-05 06:10:44.542  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@8551ee6
+2022-10-05 06:10:44.542  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
+2022-10-05 06:10:44.542  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@8551ee6
+2022-10-05 06:10:44.542  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
+2022-10-05 06:10:44.542  INFO 22312 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : j2kb.ponicon.scrap.data.dto.PostDataSaveReq@11b26693
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

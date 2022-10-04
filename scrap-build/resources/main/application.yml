@@ -1,28 +1,3 @@
-server:
-  port: 8081
-
 spring:
-  application:
-    name: scrap
-
-  datasource:
-    url:  jdbc:mysql://umcdb.c8xezlmvz99n.ap-northeast-2.rds.amazonaws.com :3306/scrap
-    username: umc
-    password: chamsaenunjack55
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-  jpa:
-    hibernate:
-      ddl-auto: update
-
-    properties:
-      hibernate:
-        show_sql: true
-        format_sql: true
-        default_batch_fetch_size: 100
-  sql:
-    init:
-      platform: mysql
-
-logging.level:
-  org.hibernate.type.descriptor.sql: trace
+  profiles:
+    active: prod
