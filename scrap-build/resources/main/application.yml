@@ -1,3 +1,4 @@
-spring:
+Spring:
   profiles:
-    active: prod
+    active:
+      - prod
