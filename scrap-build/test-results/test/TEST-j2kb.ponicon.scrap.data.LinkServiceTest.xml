@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-06T07:06:37" hostname="GANA-LAPTOP" time="0.967">
+<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-06T13:04:12" hostname="GANA-LAPTOP" time="1.041">
   <properties/>
-  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.008"/>
-  <testcase name="linkSave기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.957"/>
-  <system-out><![CDATA[2022-10-06 16:06:37.987  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@4fd9deed
-2022-10-06 16:06:37.987  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=title
-2022-10-06 16:06:37.987  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@4fd9deed
-2022-10-06 16:06:37.987  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=image
-2022-10-06 16:06:37.987  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@4fd9deed
-2022-10-06 16:06:37.987  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
-2022-10-06 16:06:38.003  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@4fd9deed
-2022-10-06 16:06:38.003  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
-2022-10-06 16:06:38.003  INFO 7956 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : j2kb.ponicon.scrap.data.dto.PostDataSaveReq@75ad7531
+  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.01"/>
+  <testcase name="linkSave기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="1.029"/>
+  <system-out><![CDATA[2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@6ab123d0
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=title
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@6ab123d0
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=image
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@6ab123d0
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@6ab123d0
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
+2022-10-06 22:04:13.729  INFO 9900 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : j2kb.ponicon.scrap.data.dto.PostDataSaveReq@7217e615
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
