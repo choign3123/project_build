@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.category.CategoryServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-06T13:04:11" hostname="GANA-LAPTOP" time="0.963">
+<testsuite name="j2kb.ponicon.scrap.category.CategoryServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-07T07:28:35" hostname="GANA-LAPTOP" time="0.645">
   <properties/>
-  <testcase name="categorySave기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="0.949"/>
-  <testcase name="categories 기능 테스트" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="0.013"/>
+  <testcase name="categorySave기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="0.633"/>
+  <testcase name="categories 기능 테스트" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
