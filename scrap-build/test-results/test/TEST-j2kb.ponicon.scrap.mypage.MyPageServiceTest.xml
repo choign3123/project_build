@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.mypage.MyPageServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T11:16:30" hostname="GANA-LAPTOP" time="0.055">
+<testsuite name="j2kb.ponicon.scrap.mypage.MyPageServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-08T04:16:17" hostname="GANA-LAPTOP" time="0.063">
   <properties/>
-  <testcase name="userInfo기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.mypage.MyPageServiceTest" time="0.055"/>
+  <testcase name="userInfo기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.mypage.MyPageServiceTest" time="0.063"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
