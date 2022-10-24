@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.493s</div>
+<div class="counter">0.518s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,31 +81,31 @@
 <tr>
 <td class="success">정상 저장</td>
 <td class="success">test1()</td>
-<td class="success">0.050s</td>
+<td class="success">0.044s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">런타임 예외난걸 서비스에 잡았으나 어노테이션에 롤백하라고 명시</td>
 <td class="success">test10()</td>
-<td class="success">0.148s</td>
+<td class="success">0.143s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">런타임 예외난걸 서비스에 잡음</td>
 <td class="success">test2()</td>
-<td class="success">0.034s</td>
+<td class="success">0.040s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">예외난걸 서비스에서 잡음</td>
 <td class="success">test3()</td>
-<td class="success">0.040s</td>
+<td class="success">0.055s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">런타임 예외난걸 컨트롤러에서 잡음: 롤백o</td>
 <td class="success">test4()</td>
-<td class="success">0.038s</td>
+<td class="success">0.045s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -117,25 +117,25 @@
 <tr>
 <td class="success">한 트랜잭션 안에서 런타임예외난걸 다른 트랜잭션에서 잡음</td>
 <td class="success">test6()</td>
-<td class="success">0.044s</td>
+<td class="success">0.045s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">예외난걸 컨트롤러에서 잡음</td>
 <td class="success">test7()</td>
-<td class="success">0.032s</td>
+<td class="success">0.038s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">한 트랜잭션 안에서 런타임예외난걸 다른 트랜잭션에서 잡지 않고 컨트롤러에서 잡음</td>
 <td class="success">test8()</td>
-<td class="success">0.039s</td>
+<td class="success">0.031s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">한 트랜잭션 안에서 런타인예외난걸 잡고, 그 메소드를 다른 트랜잭션에서 실행시키면?</td>
 <td class="success">test9()</td>
-<td class="success">0.033s</td>
+<td class="success">0.042s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -143,122 +143,122 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2022-10-22 14:20:42.671  INFO 184 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [study.gana.transaction.TranControllerTest], using SpringBootContextLoader
-2022-10-22 14:20:42.673  INFO 184 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [study.gana.transaction.TranControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-10-22 14:20:42.673  INFO 184 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [study.gana.transaction.TranControllerTest]: TranControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-10-22 14:20:42.703  INFO 184 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration study.gana.GanaApplication for test class study.gana.transaction.TranControllerTest
-2022-10-22 14:20:42.705  INFO 184 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2022-10-22 14:20:42.706  INFO 184 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@54af9cce, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683218c8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3eb6d7a9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@345f4e0d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c3eeda4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64b242b3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cb1da13, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2250deae, org.springframework.test.context.event.EventPublishingTestExecutionListener@49e8548d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3fb920d9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5d3a147f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@79bb14d8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@72fc6b5e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4353230, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@9214725]
+<pre>2022-10-24 14:14:57.683  INFO 6448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [study.gana.transaction.TranControllerTest], using SpringBootContextLoader
+2022-10-24 14:14:57.685  INFO 6448 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [study.gana.transaction.TranControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-24 14:14:57.685  INFO 6448 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [study.gana.transaction.TranControllerTest]: TranControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-24 14:14:57.709  INFO 6448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration study.gana.GanaApplication for test class study.gana.transaction.TranControllerTest
+2022-10-24 14:14:57.711  INFO 6448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-24 14:14:57.712  INFO 6448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7712c315, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a9a187b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5529fd4e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5eaa6f76, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3fc105dd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35129b9e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2f4bc3ff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2297c8bf, org.springframework.test.context.event.EventPublishingTestExecutionListener@154fcedd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@34a06981, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@458500d1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@59cbeaee, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3299ee2c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@542759f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68ac6e6e]
 서비스에서 유저 저장: 런타임_캐치_어노테이션설정
 레파지토리에서 유저 저장
-2022-10-22 14:20:42.800 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:57.789 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:42.806 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임_캐치_어노테이션설정]
+2022-10-24 14:14:57.792 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임_캐치_어노테이션설정]
 서비스에서 예외 처리: 레포지토리에서 런타임예외 발생!
 서비스에서 유저 저장: 정상 저장
 레파지토리에서 유저 저장
-2022-10-22 14:20:42.868 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:57.868 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:42.868 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [정상 저장]
+2022-10-24 14:14:57.869 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [정상 저장]
 레파지토리에서 유저 저장 끝
 서비스에서 유저 저장 끝: 정상 저장
 서비스에서 유저 저장: 런타임_캐치
 레파지토리에서 유저 저장
-2022-10-22 14:20:42.920 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:57.917 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:42.920 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임_캐치]
+2022-10-24 14:14:57.917 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임_캐치]
 서비스에서 예외 처리: 레포지토리에서 런타임예외 발생!
 서비스에서 유저 저장: 예외_캐치
 레파지토리에서 유저 저장
-2022-10-22 14:20:42.954 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:57.954 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:42.954 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [예외_캐치]
+2022-10-24 14:14:57.955 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [예외_캐치]
 서비스에서 예외 처리: 레파지토리에서 예외 발생!
 서비스에서 유저 저장: 런타임
 레파지토리에서 유저 저장
-2022-10-22 14:20:42.998 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:58.023 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:42.998 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
+2022-10-24 14:14:58.024 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
 컨트롤러에서 예외처리: 레포지토리에서 런타임예외 발생!
 서비스에서 유저 저장: 런타임
 레파지토리에서 유저 저장
-2022-10-22 14:20:43.037 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:58.060 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:43.037 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
+2022-10-24 14:14:58.060 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
 서비스에서 유저 저장: 런타임
 레파지토리에서 유저 저장
-2022-10-22 14:20:43.076 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:58.104 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:43.077 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
+2022-10-24 14:14:58.104 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
 서비스에서 예외 처리: 레포지토리에서 런타임예외 발생!
 코드 정상 실행 됨
 서비스에서 유저 저장: 예외
 레파지토리에서 유저 저장
-2022-10-22 14:20:43.114 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:58.139 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:43.114 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [예외]
+2022-10-24 14:14:58.139 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [예외]
 컨트롤러에서 예외처리: 레파지토리에서 예외 발생!
 서비스에서 유저 저장: 런타임
 레파지토리에서 유저 저장
-2022-10-22 14:20:43.155 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:58.178 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:43.155 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
+2022-10-24 14:14:58.178 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임]
 컨트롤러에서 예외처리: 레포지토리에서 런타임예외 발생!
 서비스에서 유저 저장: 런타임_캐치
 레파지토리에서 유저 저장
-2022-10-22 14:20:43.186 DEBUG 184 --- [    Test worker] org.hibernate.SQL                        : 
+2022-10-24 14:14:58.218 DEBUG 6448 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         jpa_user
         (name) 
     values
         (?)
-2022-10-22 14:20:43.186 TRACE 184 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임_캐치]
+2022-10-24 14:14:58.219 TRACE 6448 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [런타임_캐치]
 서비스에서 예외 처리: 레포지토리에서 런타임예외 발생!
 코드 정상 실행 됨
 </pre>
@@ -272,7 +272,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4.1</a> at 2022. 10. 22. 오후 2:20:43</p>
+<a href="http://www.gradle.org">Gradle 7.4.1</a> at 2022. 10. 24. 오후 2:14:58</p>
 </div>
 </div>
 </body>
