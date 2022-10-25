@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-08T04:16:16" hostname="GANA-LAPTOP" time="1.054">
+<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-25T06:30:35" hostname="GANA-LAPTOP" time="2.095">
   <properties/>
-  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.01"/>
-  <testcase name="linkSave기능이 제대로 동작하는지 확인" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="1.042"/>
-  <system-out><![CDATA[2022-10-08 13:16:17.975  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@453ca7f
-2022-10-08 13:16:17.976  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=title
-2022-10-08 13:16:17.976  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@453ca7f
-2022-10-08 13:16:17.977  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=image
-2022-10-08 13:16:17.979  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@453ca7f
-2022-10-08 13:16:17.979  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
-2022-10-08 13:16:17.980  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : page=j2kb.ponicon.scrap.data.lib.OpenGraph@453ca7f
-2022-10-08 13:16:17.981  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : propertyName=url
-2022-10-08 13:16:17.982  INFO 3412 --- [    Test worker] j2kb.ponicon.scrap.data.LinkServiceImpl  : j2kb.ponicon.scrap.data.dto.PostDataSaveReq@5d41b929
-baseURL = https://galid1.tistory.com/772
-postDataSaveReq.getLink() = https://galid1.tistory.com/772
-postDataSaveReq.getImgUrl() = https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F998F98455F6AF2D00E
+  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.022"/>
+  <testcase name="linkSave()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="2.07"/>
+  <system-out><![CDATA[15:30:35.935 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@d0865a3] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+15:30:35.936 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@636bbbbb] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
+15:30:35.958 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@6884f0d9] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+15:30:35.959 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@49ec6a9f] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
+15:30:35.960 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Link@26b95b0b] or target class [class j2kb.ponicon.scrap.domain.Link] to value [1]
+15:30:38.000 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
+15:30:38.006 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=title
+15:30:38.007 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
+15:30:38.007 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=url
+15:30:38.008 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
+15:30:38.008 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=image
+15:30:38.009 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - j2kb.ponicon.scrap.data.dto.PostDataSaveReq@78a0ff63
+baseURL = https://okky.kr/
+postDataSaveReq.getLink() = https://okky.kr
+postDataSaveReq.getImgUrl() = https://okky.kr/okky.png
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

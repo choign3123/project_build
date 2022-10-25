@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.272s</div>
+<div class="counter">0.124s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,9 +63,6 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
-<li>
-<a href="#tab1">Standard output</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -79,54 +76,10 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.272s</td>
+<td class="success">0.124s</td>
 <td class="success">passed</td>
 </tr>
 </table>
-</div>
-<div id="tab1" class="tab">
-<h2>Standard output</h2>
-<span class="code">
-<pre>13:15:58.922 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-13:15:58.979 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-13:15:59.148 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [j2kb.ponicon.scrap.ScrapApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-13:15:59.244 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [j2kb.ponicon.scrap.ScrapApplicationTests], using SpringBootContextLoader
-13:15:59.263 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [j2kb.ponicon.scrap.ScrapApplicationTests]: class path resource [j2kb/ponicon/scrap/ScrapApplicationTests-context.xml] does not exist
-13:15:59.267 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [j2kb.ponicon.scrap.ScrapApplicationTests]: class path resource [j2kb/ponicon/scrap/ScrapApplicationTestsContext.groovy] does not exist
-13:15:59.271 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [j2kb.ponicon.scrap.ScrapApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-13:15:59.275 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [j2kb.ponicon.scrap.ScrapApplicationTests]: ScrapApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-13:15:59.391 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [j2kb.ponicon.scrap.ScrapApplicationTests]
-13:15:59.529 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\git\scrap-server_J2KB\build\classes\java\main\j2kb\ponicon\scrap\ScrapApplication.class]
-13:15:59.553 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration j2kb.ponicon.scrap.ScrapApplication for test class j2kb.ponicon.scrap.ScrapApplicationTests
-13:15:59.788 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [j2kb.ponicon.scrap.ScrapApplicationTests]: using defaults.
-13:15:59.789 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-13:15:59.841 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@33d05366, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27a0a5a2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7692cd34, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@33aa93c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32c0915e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@106faf11, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70f43b45, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26d10f2e, org.springframework.test.context.event.EventPublishingTestExecutionListener@10ad20cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7dd712e8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c282004, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@22ee2d0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7bfc3126, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3e792ce3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@53bc1328]
-13:15:59.851 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3a71c100 testClass = ScrapApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5b69fd74 testClass = ScrapApplicationTests, locations = '{}', classes = '{class j2kb.ponicon.scrap.ScrapApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@58359ebd, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27305e6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7446d8d5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@306851c7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@75ed9710, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2663e964], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::                (v2.7.3)
-
-2022-10-08 13:16:00.999  INFO 3412 --- [    Test worker] j.ponicon.scrap.ScrapApplicationTests    : Starting ScrapApplicationTests using Java 11.0.15 on GANA-LAPTOP with PID 3412 (started by Choi ga na in C:\git\scrap-server_J2KB)
-2022-10-08 13:16:01.006  INFO 3412 --- [    Test worker] j.ponicon.scrap.ScrapApplicationTests    : The following 1 profile is active: &quot;prod&quot;
-2022-10-08 13:16:04.115  INFO 3412 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-10-08 13:16:04.390  INFO 3412 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 256 ms. Found 4 JPA repository interfaces.
-2022-10-08 13:16:06.007  INFO 3412 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-10-08 13:16:06.153  INFO 3412 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-10-08 13:16:06.711  INFO 3412 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-10-08 13:16:07.011  INFO 3412 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-10-08 13:16:07.946  INFO 3412 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-10-08 13:16:08.068  INFO 3412 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-10-08 13:16:10.328  INFO 3412 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-10-08 13:16:10.351  INFO 3412 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-10-08 13:16:12.389  WARN 3412 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-10-08 13:16:15.817  INFO 3412 --- [    Test worker] j.ponicon.scrap.ScrapApplicationTests    : Started ScrapApplicationTests in 15.881 seconds (JVM running for 22.601)
-</pre>
-</span>
 </div>
 </div>
 <div id="footer">
@@ -136,7 +89,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5</a> at 2022. 10. 8. 오후 1:16:18</p>
+<a href="http://www.gradle.org">Gradle 7.5</a> at 2022. 10. 25. 오후 3:30:38</p>
 </div>
 </div>
 </body>
