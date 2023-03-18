@@ -1,50 +1,28 @@
-÷15:30:31.631 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@1ac45389] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-ÿ15:30:31.638 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@624a24f6] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-÷15:30:31.926 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@4d8286c4] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-'encryptUrl : FgJedDvz9cZHnde6OPLr5Q==
-,encryptUsername : s/mivwPaHoMdIU5IBM3O6A==
-4encryptPassword : /TzJ4m8FzUMKak6lB38+LKAnFuk/aJp0
-	ö15:30:35.935 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@d0865a3] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-	ÿ15:30:35.936 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@636bbbbb] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-	
-÷15:30:35.958 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@6884f0d9] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-	
-ÿ15:30:35.959 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@49ec6a9f] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-	
-÷15:30:35.960 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Link@26b95b0b] or target class [class j2kb.ponicon.scrap.domain.Link] to value [1]
-	
-15:30:38.000 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
-	
-^15:30:38.006 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=title
-	
-15:30:38.007 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
-	
-\15:30:38.007 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=url
-	
-15:30:38.008 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
-	
-^15:30:38.008 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=image
-	
-€15:30:38.009 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - j2kb.ponicon.scrap.data.dto.PostDataSaveReq@78a0ff63
-	
-baseURL = https://okky.kr/
-	
--postDataSaveReq.getLink() = https://okky.kr
-	
-8postDataSaveReq.getImgUrl() = https://okky.kr/okky.png
-ö15:30:38.143 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@4483d35] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-result = true
-result = true
-result = true
-result = false
-result = true
-result = true
-result = false
-result = false
-result = true
-result = true
-result = false
-result = false
-result = true
-result = true
-result = true
+ture
+÷01:05:04.321 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@11d4dbd6] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+ÿ01:05:04.326 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@240f6c41] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
+÷01:05:04.467 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@21f459fc] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+]01:05:04.476 [Test worker] INFO j2kb.ponicon.scrap.category.CategoryServiceImpl - count =2 
+	'encryptUrl : z6lm12fCbI8Ts2E9NtNdiA==
+	,encryptUsername : Vs97Bn/AkvYlhIG9knR3oA==
+	4encryptPassword : 4EtssrYPsN9ovMK+SjrT1Q5TtDm08/P8
+
+÷01:05:06.073 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@103082dd] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+
+ÿ01:05:06.074 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@3a22bad6] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
+÷01:05:06.125 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@7a0ef219] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+result = true
+result = true
+result = true
+result = false
+result = true
+result = true
+result = false
+result = false
+result = true
+result = true
+result = false
+result = false
+result = true
+result = true
+result = true

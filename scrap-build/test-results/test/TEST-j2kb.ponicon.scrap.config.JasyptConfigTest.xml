@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.config.JasyptConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-25T06:30:31" hostname="GANA-LAPTOP" time="3.925">
+<testsuite name="j2kb.ponicon.scrap.config.JasyptConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-18T16:05:04" hostname="GANA-LAPTOP" time="1.579">
   <properties/>
-  <testcase name="jasypt()" classname="j2kb.ponicon.scrap.config.JasyptConfigTest" time="3.925"/>
-  <system-out><![CDATA[encryptUrl : FgJedDvz9cZHnde6OPLr5Q==
-encryptUsername : s/mivwPaHoMdIU5IBM3O6A==
-encryptPassword : /TzJ4m8FzUMKak6lB38+LKAnFuk/aJp0
+  <testcase name="jasypt()" classname="j2kb.ponicon.scrap.config.JasyptConfigTest" time="1.579"/>
+  <system-out><![CDATA[encryptUrl : z6lm12fCbI8Ts2E9NtNdiA==
+encryptUsername : Vs97Bn/AkvYlhIG9knR3oA==
+encryptPassword : 4EtssrYPsN9ovMK+SjrT1Q5TtDm08/P8
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

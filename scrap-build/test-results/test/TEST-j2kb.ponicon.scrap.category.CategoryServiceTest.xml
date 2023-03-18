@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.category.CategoryServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-25T06:30:29" hostname="GANA-LAPTOP" time="2.86">
+<testsuite name="j2kb.ponicon.scrap.category.CategoryServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-18T16:05:03" hostname="GANA-LAPTOP" time="1.452">
   <properties/>
-  <testcase name="categorySave()" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="2.787"/>
-  <testcase name="categories()" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="0.068"/>
-  <system-out><![CDATA[15:30:31.631 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@1ac45389] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-15:30:31.638 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@624a24f6] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-15:30:31.926 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@4d8286c4] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+  <testcase name="categorySave()" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="1.431"/>
+  <testcase name="categories()" classname="j2kb.ponicon.scrap.category.CategoryServiceTest" time="0.02"/>
+  <system-out><![CDATA[01:05:04.321 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@11d4dbd6] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+01:05:04.326 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@240f6c41] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
+01:05:04.467 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@21f459fc] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+01:05:04.476 [Test worker] INFO j2kb.ponicon.scrap.category.CategoryServiceImpl - count =2 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

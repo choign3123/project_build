@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-25T06:30:35" hostname="GANA-LAPTOP" time="2.095">
+<testsuite name="j2kb.ponicon.scrap.data.LinkServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-18T16:05:06" hostname="GANA-LAPTOP" time="0.014">
   <properties/>
-  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.022"/>
-  <testcase name="linkSave()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="2.07"/>
-  <system-out><![CDATA[15:30:35.935 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@d0865a3] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-15:30:35.936 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@636bbbbb] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-15:30:35.958 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@6884f0d9] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
-15:30:35.959 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@49ec6a9f] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
-15:30:35.960 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Link@26b95b0b] or target class [class j2kb.ponicon.scrap.domain.Link] to value [1]
-15:30:38.000 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
-15:30:38.006 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=title
-15:30:38.007 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
-15:30:38.007 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=url
-15:30:38.008 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - page=j2kb.ponicon.scrap.data.lib.OpenGraph@5e1fc42f
-15:30:38.008 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - propertyName=image
-15:30:38.009 [Test worker] INFO j2kb.ponicon.scrap.data.LinkServiceImpl - j2kb.ponicon.scrap.data.dto.PostDataSaveReq@78a0ff63
-baseURL = https://okky.kr/
-postDataSaveReq.getLink() = https://okky.kr
-postDataSaveReq.getImgUrl() = https://okky.kr/okky.png
+  <testcase name="links()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.011"/>
+  <testcase name="linkSave()" classname="j2kb.ponicon.scrap.data.LinkServiceTest" time="0.002"/>
+  <system-out><![CDATA[01:05:06.073 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.User@103082dd] or target class [class j2kb.ponicon.scrap.domain.User] to value [1]
+01:05:06.074 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'id' of type [null] on target object [j2kb.ponicon.scrap.domain.Category@3a22bad6] or target class [class j2kb.ponicon.scrap.domain.Category] to value [1]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
