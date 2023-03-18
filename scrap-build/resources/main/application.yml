@@ -12,8 +12,11 @@ spring:
 
   datasource:
     platform: mysql
-    url: jdbc:mysql://umcdb.c8xezlmvz99n.ap-northeast-2.rds.amazonaws.com :3306/scrap_local
-    username: umc
+#    url: jdbc:mysql://umcdb.c8xezlmvz99n.ap-northeast-2.rds.amazonaws.com :3306/scrap_local
+#    username: umc
+#    password: chamsaenunjack55
+    url: jdbc:mysql://scrap-db.cwu2l7srgref.ap-northeast-2.rds.amazonaws.com:3306/scrap
+    username: scrap
     password: chamsaenunjack55
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
   # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
