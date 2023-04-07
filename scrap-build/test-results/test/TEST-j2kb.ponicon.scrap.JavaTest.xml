@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="j2kb.ponicon.scrap.JavaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-18T16:52:08" hostname="GANA-LAPTOP" time="0.018">
+<testsuite name="j2kb.ponicon.scrap.JavaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-07T03:15:12" hostname="GANA-LAPTOP" time="0.033">
   <properties/>
-  <testcase name="checkLongValue()" classname="j2kb.ponicon.scrap.JavaTest" time="0.018"/>
+  <testcase name="checkLongValue()" classname="j2kb.ponicon.scrap.JavaTest" time="0.033"/>
   <system-out><![CDATA[ture
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
