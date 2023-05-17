@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="capstone.bapool.KakaoLocalApiTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-05-17T07:41:18" hostname="GANA-LAPTOP" time="0.899">
+  <properties/>
+  <testcase name="searchByKeyword()" classname="capstone.bapool.KakaoLocalApiTests" time="0.783"/>
+  <testcase name="카카오 로컬 API-카테고리로 검색" classname="capstone.bapool.KakaoLocalApiTests" time="0.115"/>
+  <system-out><![CDATA[테스트 실행
+base = 떡볶이
+encodeUrl = %EB%96%A1%EB%B3%B6%EC%9D%B4
+url = /v2/local/search/keyword.json
+1
+2
+conn.getResponseCode() = 200
+conn.getResponseMessage() = OK
+result = {"documents":[{"address_name":"서울 동작구 사당동 138-4","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"10587024","phone":"02-595-1629","place_name":"애플하우스 이수","place_url":"http://place.map.kakao.com/10587024","road_address_name":"서울 동작구 동작대로27다길 29","x":"126.98057475807556","y":"37.4862749512195"},{"address_name":"서울 중구 신당동 292-112","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"25036918","phone":"02-2232-8930","place_name":"마복림떡볶이","place_url":"http://place.map.kakao.com/25036918","road_address_name":"서울 중구 다산로35길 5","x":"127.01512154258373","y":"37.56327523942241"},{"address_name":"부산 중구 부평동2가 16","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"20204736","phone":"051-245-0413","place_name":"이가네떡볶이 본점","place_url":"http://place.map.kakao.com/20204736","road_address_name":"부산 중구 부평1길 48","x":"129.02595233473696","y":"35.1014825667343"},{"address_name":"서울 광진구 구의동 52-17","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"13319252","phone":"","place_name":"신토불이떡볶이 본점","place_url":"http://place.map.kakao.com/13319252","road_address_name":"서울 광진구 자양로43길 42","x":"127.09047521166055","y":"37.55256562797821"},{"address_name":"서울 서대문구 충정로3가 143-2","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"25880887","phone":"02-364-3440","place_name":"철길떡볶이","place_url":"http://place.map.kakao.com/25880887","road_address_name":"서울 서대문구 충정로 35-6","x":"126.96360803952125","y":"37.56229662189628"},{"address_name":"부산 수영구 남천동 29-4","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"8849564","phone":"","place_name":"다리집 본점","place_url":"http://place.map.kakao.com/8849564","road_address_name":"부산 수영구 남천바다로10번길 70","x":"129.11067695056968","y":"35.14649393533008"},{"address_name":"부산 해운대구 우동 558-8","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"20522414","phone":"051-743-2814","place_name":"빨간떡볶이","place_url":"http://place.map.kakao.com/20522414","road_address_name":"부산 해운대구 우동1로20번가길 4","x":"129.159494829864","y":"35.1653314545762"},{"address_name":"서울 마포구 도화동 345-4","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"7865809","phone":"02-719-2005","place_name":"마포원조떡볶이","place_url":"http://place.map.kakao.com/7865809","road_address_name":"서울 마포구 도화2길 3","x":"126.94878807971321","y":"37.54033469896396"},{"address_name":"서울 마포구 서교동 396-32","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"27248381","phone":"","place_name":"또보겠지떡볶이집 호호시스터점","place_url":"http://place.map.kakao.com/27248381","road_address_name":"서울 마포구 양화로6길 45","x":"126.9168146300709","y":"37.548945372356144"},{"address_name":"서울 종로구 명륜2가 225","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"10199904","phone":"02-747-0881","place_name":"나누미떡볶이 성대본점","place_url":"http://place.map.kakao.com/10199904","road_address_name":"서울 종로구 성균관로 9-1","x":"126.99791682343135","y":"37.58370174345993"},{"address_name":"대구 중구 동성로2가 70-2","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"10787627","phone":"053-424-7692","place_name":"중앙떡볶이","place_url":"http://place.map.kakao.com/10787627","road_address_name":"대구 중구 동성로2길 81","x":"128.597023748627","y":"35.869454220452"},{"address_name":"서울 마포구 서교동 358-42","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"895272833","phone":"0507-1394-8645","place_name":"또보겠지떡볶이집 깐따삐아점","place_url":"http://place.map.kakao.com/895272833","road_address_name":"서울 마포구 와우산로21길 28-12","x":"126.922465412458","y":"37.5528045890423"},{"address_name":"인천 부평구 부평동 738-21","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"13327922","phone":"032-503-9636","place_name":"모녀떡볶이 부평남부역점","place_url":"http://place.map.kakao.com/13327922","road_address_name":"인천 부평구 광장로 16","x":"126.723545273557","y":"37.4891300529512"},{"address_name":"서울 서대문구 북가좌동 311-6","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"1893424671","phone":"02-305-1906","place_name":"맛있는집","place_url":"http://place.map.kakao.com/1893424671","road_address_name":"서울 서대문구 거북골로20길 55","x":"126.91083489274945","y":"37.580433519698204"},{"address_name":"서울 성동구 행당동 3-27","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이","distance":"","id":"11101743","phone":"02-2281-9988","place_name":"악어떡볶이","place_url":"http://place.map.kakao.com/11101743","road_address_name":"서울 성동구 마조로 33","x":"127.041044045933","y":"37.5606615893525"}],"meta":{"is_end":false,"pageable_count":45,"same_name":{"keyword":"떡볶이","region":[],"selected_region":""},"total_count":29970}}
+documents.get(0) = {"address_name":"서울 동작구 사당동 138-4","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 > 분식 > 떡볶이","distance":"","id":"10587024","phone":"02-595-1629","place_name":"애플하우스 이수","place_url":"http://place.map.kakao.com/10587024","road_address_name":"서울 동작구 동작대로27다길 29","x":"126.98057475807556","y":"37.4862749512195"}
+placeName = "애플하우스 이수"
+conn.getResponseCode() = 200
+conn.getResponseMessage() = OK
+result = {"documents":[{"address_name":"서울 종로구 홍지동 125","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 한식 \u003e 한정식","distance":"","id":"7943191","phone":"02-395-2500","place_name":"석파랑","place_url":"http://place.map.kakao.com/7943191","road_address_name":"서울 종로구 자하문로 309","x":"126.95865051612685","y":"37.59928258339286"},{"address_name":"서울 종로구 홍지동 133-3","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 양식","distance":"","id":"26879501","phone":"02-395-2505","place_name":"스톤힐","place_url":"http://place.map.kakao.com/26879501","road_address_name":"서울 종로구 자하문로 307","x":"126.95909005140105","y":"37.59898090461114"},{"address_name":"서울 종로구 홍지동 133-3","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 간식 \u003e 제과,베이커리","distance":"","id":"1590019869","phone":"02-395-9615","place_name":"몽핀","place_url":"http://place.map.kakao.com/1590019869","road_address_name":"서울 종로구 자하문로 307","x":"126.95906399946577","y":"37.59899350945109"},{"address_name":"서울 종로구 홍지동 45-2","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 중식","distance":"","id":"16903777","phone":"02-395-8828","place_name":"팔선생","place_url":"http://place.map.kakao.com/16903777","road_address_name":"서울 종로구 홍지문길 1","x":"126.957113583035","y":"37.5997532531374"},{"address_name":"서울 종로구 신영동 168-3","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 양식 \u003e 피자","distance":"","id":"11737247","phone":"02-395-1713","place_name":"송스키친 세검정점","place_url":"http://place.map.kakao.com/11737247","road_address_name":"서울 종로구 세검정로6길 16","x":"126.960143417626","y":"37.6006517019706"},{"address_name":"서울 종로구 홍지동 47-5","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 한식 \u003e 설렁탕","distance":"","id":"1241496358","phone":"02-379-8179","place_name":"청와옥설렁탕","place_url":"http://place.map.kakao.com/1241496358","road_address_name":"서울 종로구 홍지문길 3","x":"126.956923224875","y":"37.5999514017865"},{"address_name":"서울 종로구 홍지동 60-2","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 일식 \u003e 돈까스,우동","distance":"","id":"673698858","phone":"02-391-7115","place_name":"더함께식탁 상명대본점","place_url":"http://place.map.kakao.com/673698858","road_address_name":"서울 종로구 홍지문2길 6","x":"126.9564106667362","y":"37.60116845200116"},{"address_name":"서울 종로구 홍지동 102-1","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 양식","distance":"","id":"38915969","phone":"","place_name":"원테이블","place_url":"http://place.map.kakao.com/38915969","road_address_name":"서울 종로구 자하문로 304","x":"126.959433919082","y":"37.5996801922182"},{"address_name":"서울 종로구 홍지동 96","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 일식 \u003e 초밥,롤","distance":"","id":"873929323","phone":"070-4833-9389","place_name":"한국초밥","place_url":"http://place.map.kakao.com/873929323","road_address_name":"서울 종로구 자하문로 314","x":"126.958560691981","y":"37.5999402751927"},{"address_name":"서울 종로구 홍지동 90-3","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 한식","distance":"","id":"19387301","phone":"02-395-6317","place_name":"삼거리전주집","place_url":"http://place.map.kakao.com/19387301","road_address_name":"서울 종로구 세검정로 232","x":"126.95852651522","y":"37.600308768404"},{"address_name":"서울 종로구 홍지동 127-7","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 간식 \u003e 제과,베이커리","distance":"","id":"21406145","phone":"","place_name":"종로복떡방","place_url":"http://place.map.kakao.com/21406145","road_address_name":"서울 종로구 자하문로 293","x":"126.960248537697","y":"37.5988893994041"},{"address_name":"서울 종로구 홍지동 72-2","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 양식 \u003e 피자 \u003e 파파존스","distance":"","id":"1470337852","phone":"02-379-8805","place_name":"파파존스 홍제상명대점","place_url":"http://place.map.kakao.com/1470337852","road_address_name":"서울 종로구 홍지문길 2","x":"126.95735465807518","y":"37.59997588521389"},{"address_name":"서울 종로구 홍지동 92-6","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 한식 \u003e 육류,고기 \u003e 곱창,막창","distance":"","id":"323279911","phone":"02-396-2503","place_name":"부암곱창","place_url":"http://place.map.kakao.com/323279911","road_address_name":"서울 종로구 세검정로 236-1","x":"126.958927270367","y":"37.6005251463174"},{"address_name":"서울 종로구 홍지동 99-3","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 도시락 \u003e 한솥도시락","distance":"","id":"11634869","phone":"02-396-9050","place_name":"한솥도시락 상명대앞점","place_url":"http://place.map.kakao.com/11634869","road_address_name":"서울 종로구 자하문로 306","x":"126.959079440438","y":"37.5997467431689"},{"address_name":"서울 종로구 홍지동 47-4","category_group_code":"FD6","category_group_name":"음식점","category_name":"음식점 \u003e 분식 \u003e 떡볶이 \u003e 신전떡볶이","distance":"","id":"306872977","phone":"02-391-5890","place_name":"신전떡볶이 상명대점","place_url":"http://place.map.kakao.com/306872977","road_address_name":"서울 종로구 홍지문길 5","x":"126.956841660341","y":"37.6000054314347"}],"meta":{"is_end":false,"pageable_count":35,"same_name":null,"total_count":35}}
+id=7943191
+name=석파랑
+address=서울 종로구 자하문로 309
+category=음식점 > 한식 > 한정식
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.95865051612685
+lat=37.59928258339286
+
+id=26879501
+name=스톤힐
+address=서울 종로구 자하문로 307
+category=음식점 > 양식
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.95909005140105
+lat=37.59898090461114
+
+id=1590019869
+name=몽핀
+address=서울 종로구 자하문로 307
+category=음식점 > 간식 > 제과,베이커리
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.95906399946577
+lat=37.59899350945109
+
+id=16903777
+name=팔선생
+address=서울 종로구 홍지문길 1
+category=음식점 > 중식
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.957113583035
+lat=37.5997532531374
+
+id=11737247
+name=송스키친 세검정점
+address=서울 종로구 세검정로6길 16
+category=음식점 > 양식 > 피자
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.960143417626
+lat=37.6006517019706
+
+id=1241496358
+name=청와옥설렁탕
+address=서울 종로구 홍지문길 3
+category=음식점 > 한식 > 설렁탕
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.956923224875
+lat=37.5999514017865
+
+id=673698858
+name=더함께식탁 상명대본점
+address=서울 종로구 홍지문2길 6
+category=음식점 > 일식 > 돈까스,우동
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.9564106667362
+lat=37.60116845200116
+
+id=38915969
+name=원테이블
+address=서울 종로구 자하문로 304
+category=음식점 > 양식
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.959433919082
+lat=37.5996801922182
+
+id=873929323
+name=한국초밥
+address=서울 종로구 자하문로 314
+category=음식점 > 일식 > 초밥,롤
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.958560691981
+lat=37.5999402751927
+
+id=19387301
+name=삼거리전주집
+address=서울 종로구 세검정로 232
+category=음식점 > 한식
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.95852651522
+lat=37.600308768404
+
+id=21406145
+name=종로복떡방
+address=서울 종로구 자하문로 293
+category=음식점 > 간식 > 제과,베이커리
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.960248537697
+lat=37.5988893994041
+
+id=1470337852
+name=파파존스 홍제상명대점
+address=서울 종로구 홍지문길 2
+category=음식점 > 양식 > 피자 > 파파존스
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.95735465807518
+lat=37.59997588521389
+
+id=323279911
+name=부암곱창
+address=서울 종로구 세검정로 236-1
+category=음식점 > 한식 > 육류,고기 > 곱창,막창
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.958927270367
+lat=37.6005251463174
+
+id=11634869
+name=한솥도시락 상명대앞점
+address=서울 종로구 자하문로 306
+category=음식점 > 도시락 > 한솥도시락
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.959079440438
+lat=37.5997467431689
+
+id=306872977
+name=신전떡볶이 상명대점
+address=서울 종로구 홍지문길 5
+category=음식점 > 분식 > 떡볶이 > 신전떡볶이
+imgUrl=https://temp/imgUrl
+numOfParty=101
+long=126.956841660341
+lat=37.6000054314347
+
+isEnd = false
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
