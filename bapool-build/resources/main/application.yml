@@ -6,12 +6,12 @@ spring:
     name: bapool
 
   datasource:
-    url: jdbc:mysql://localhost:3306/bapool
-    username: root
-    password: nabigasalrang33
-#    url: jdbc:mysql://capstone-db.ckycwawmp50l.ap-northeast-2.rds.amazonaws.com:3306/bapool
-#    username: admin
-#    password: bes04172qwer
+#    url: jdbc:mysql://localhost:3306/bapool
+#    username: root
+#    password: nabigasalrang33
+    url: jdbc:mysql://capstone-db.ckycwawmp50l.ap-northeast-2.rds.amazonaws.com:3306/bapool
+    username: admin
+    password: bes04172qwer
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8
   sql:
     init:
