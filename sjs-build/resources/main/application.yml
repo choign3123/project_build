@@ -6,8 +6,8 @@ spring:
     name: smallestShelter
 
   datasource:
-    url:  jdbc:mysql://umcdb.c8xezlmvz99n.ap-northeast-2.rds.amazonaws.com:3306/umcSJS
-    username: umc
+    url:  jdbc:mysql://scrap.cwu2l7srgref.ap-northeast-2.rds.amazonaws.com:3306/umcSJS
+    username: scrap
     password: chamsaenunjack55
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
   # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
