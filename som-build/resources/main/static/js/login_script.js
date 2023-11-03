@@ -1,5 +1,5 @@
 // var domain = "http://localhost:8080/admin";
-var domain = "http://3.34.55.111:8080//admin";
+var domain = "http://3.34.55.111:8080/admin";
 
 function login() {
     //login 성공시 로직
